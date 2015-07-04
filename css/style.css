@@ -1,0 +1,67 @@
+body{
+		background: #FB5995 url('../images/boats.jpg')repeat-y scroll left top;
+		margin:0;
+		padding:0;
+	}
+	::selection {
+  background: yellow;
+  color: black;
+  text-shadow: none;
+}
+
+	#header h1, h2, ul, li{
+		padding-top:35px;
+		font-family: "Roboto", Helvetica, Arial, sans-serif;
+		color:#FB5995;
+		font-size:60px;
+		font-weight: 100;
+		text-align: center;
+		letter-spacing: 10px;
+
+	}
+	#header {
+		text-align: left;
+	}
+
+
+	ul li{
+		font-size: 18px;
+		letter-spacing: 1px;
+		display: inline;
+		text-align: center;
+		
+	}
+
+	ul {
+		margin-top: -110px;
+		text-align: center;
+		padding-top: -20px;
+		margin-right: 40px;
+	}
+	.more-info {
+		margin: 0 auto;
+	}
+
+	.social {
+		height: 50px;
+		width: 50px;
+		border-radius: 100%;
+		background-color:#FB5995;
+		display: inline-block;
+		
+	}
+
+	@media (max-width: 580px) {
+		h1 {
+			line-height: 0.9em;
+		}
+  ul li {
+    display: block;
+  }
+  ul li:first-child {
+  	margin-top: 30px;
+  }
+  ul li:last-child {
+  	margin-top: -20px;
+  }
+}
